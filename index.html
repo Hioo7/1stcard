@@ -4,7 +4,7 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<img href="images/anand.jpeg">
+	<img href="images/logoimage.jpeg">
 
 	<link rel="shortcut icon" href="https://instagram.fdel29-1.fna.fbcdn.net/v/t51.2885-19/447257107_996001275455263_1880419616848341998_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fdel29-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=tiHvBZ1z49YQ7kNvgHZ7M69&edm=APHcPcMBAAAA&ccb=7-5&oh=00_AYDmk60AIVylSqetVFLwTck6bVqvjmZmLnCkKzpsjuOY9g&oe=66E30B80&_nc_sid=bef7bc" type="image/x-icon">
 
@@ -128,7 +128,7 @@
 												data-widget_type="image.default">
 												<div class="elementor-widget-container">
 													<img decoding="async" width="800" height="800"
-														src="./images/anand.jpeg"
+														src="./images/logoimage.jpeg"
 														class="attachment-large size-large wp-image-327" alt=""
 														sizes="(max-width: 800px) 100vw, 800px">
 												</div>
@@ -184,7 +184,7 @@
 												data-widget_type="heading.default">
 												<div class="elementor-widget-container">
 													<h1 class="elementor-heading-title elementor-size-default">
-														Anand Kumar
+														World of jewels
 													</h1>
 												</div>
 											</div>
@@ -225,7 +225,7 @@
 															display: inline-block
 														}
 													</style>
-													<p>World of jewels</p>
+													<p>Anand Kumar</p>
 												</div>
 											</div>
 											<div class="elementor-element elementor-element-389c5a64 elementor-absolute box-icon elementor-view-default elementor-widget elementor-widget-icon"
@@ -429,6 +429,52 @@
 							<div class="elementor-element elementor-element-489f23fc e-con-full e-flex e-con e-child"
 								data-id="489f23fc" data-element_type="container"
 								data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+								<div class="fullform" style="">
+								<div class="send">
+									<h3>Share my card  with others:</h3>
+									
+
+    <form id="whatsappForm">
+	
+        <input type="text" id="phoneNumber" placeholder="WhatsApp number" maxlength="10" required>
+        <button type="submit"><b>Share</b></button>
+    </form>
+</div>
+    <script>
+        document.getElementById('whatsappForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent form submission
+
+            const phoneNumber = document.getElementById('phoneNumber').value;
+
+            if (phoneNumber.length === 10) { // Check if the phone number is 10 digits
+                // WhatsApp API URL with a pre-filled message and the number
+                const message = encodeURIComponent(`Hello,
+Pleasure connecting with you!! Below are my details:
+
+Digital Business Card/Profile:
+https://bizvizcards.com/ecard/AnandKumar/
+
+Save to Contacts Directly:
+https://bizvizcards.com/ecard/AnandKumar/assets/anand.vcf
+
+*Note: If this is our first chat, reply hi and then click the links above. (Wapp Policy)*
+
+Regards,
+Anand Kumar
+World Of Jewels
+
+Powered by: bizvizcards.com`);
+                const whatsappURL = `https://api.whatsapp.com/send?text=${message}&phone=91${phoneNumber}`;
+
+                window.location.href = whatsappURL; // Redirect to WhatsApp
+            } else {
+                alert("Please enter a valid 10-digit phone number.");
+            }
+        });
+    </script>
+
+
+								</div>
 
 								<div class="elementor-element elementor-element-7f11903d e-flex e-con-boxed e-con e-child"
 									style="margin:8px 0px;" data-id="7f11903d" data-element_type="container"
